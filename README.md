@@ -10,3 +10,12 @@
 ```sh
 ./cli.js --help
 ```
+
+## Asennus
+
+```sh
+git clone git@github.com:vaaralav/puistikko-sqlite-to-csv.git
+cd puistikko-sqlite-to-csv
+npm i # Jos käytät NPM
+yarn # Jos käytät Yarn
+```
