@@ -6,7 +6,7 @@ const main = require('./index.js');
 const cli = meow(`
   Käyttö $ ./cli.js <database_file> <uuden_csv_tiedoston_nimi> <sarjan_vartiot_csv> <sarjan_koodi> <radat>
 
-  Esimerkki: $ ./cli.js testi.db HA_vartiot.csv HA ABC
+  Esimerkki: $ ./cli.js testi.db HA_tulokset.csv HA_vartiot.csv HA ABC
   Esimerkkikomento hakee vartioiden numerot HA_vartiot.csv-tiedostosta, hakee tulokset HA-sarjalle radoille HA-A, HA-B ja HA-C.
 
   - database_file: SQLite-tietokantatiedoston nimi
